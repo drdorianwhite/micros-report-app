@@ -1,0 +1,44 @@
+{
+  "name": "micros-report-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "chart.js": "^1.1.1",
+    "jquery": "^3.3.1",
+    "mysql": "^2.16.0",
+    "popper.js": "^1.14.4",
+    "react": "^16.6.0",
+    "react-art": "^16.6.0",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.6.0",
+    "react-native-web": "^0.9.5",
+=======
+    "chart.js": "^2.7.3",
+    "mysql": "^2.16.0",
+    "react": "^16.6.0",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.6.0",
+=======
+    "chart.js": "^2.7.3",
+    "mysql": "^2.16.0",
+    "react": "^16.6.0",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.6.0",
+>>>>>>> ee36cfdf0fa14000fbc0c02d7e1d5a6b1d109d96
+    "react-native-web": "^0.9.1",
+>>>>>>> ee36cfdf0fa14000fbc0c02d7e1d5a6b1d109d96
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
