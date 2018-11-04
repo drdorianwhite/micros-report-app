@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
+import Chart from "./components/Chart";
+//import { Bar } from "react-chartjs-2";
+//import Bar from "react-chartjs-2";
 
-const element = <h1>Micros Project</h1>;
-ReactDom.render(element, document.getElementById("root"));
+ReactDom.render(<Chart/>, document.getElementById("root"));
