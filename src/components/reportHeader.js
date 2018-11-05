@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Bar} from "react-chartjs-2";
+import MediaQuery from 'react-responsive';
 
 class ReportChart extends Component {
   	constructor(props): {
@@ -63,12 +64,14 @@ class ReportChart extends Component {
 	
 	render(): {
   		return 
-	  	(<div>
+	  	(<MediaQuery>
+        <div>
 	  		<Bar 
 		  	data={this.state.chartData}
 		  	options={{this.state.chartOptions}}
 		  	/>
-	  	</div>)
+      </div>
+      </MediaQuery>)
   }
 
 
