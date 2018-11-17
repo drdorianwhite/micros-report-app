@@ -1,0 +1,14 @@
+* d a login component  with login session data for node
+* create banner component with logged in user on top right
+* create period selection component
+* create a report-type list component with a report type component 
+    that displays the name of the report type along with the total of the report
+* create a report detail component for each report type 
+    * the report detail will be fed a query result returning a recordset filling a table
+    * based on period selected
+   * has a bottom close button that closes view that hides the view revealing the report list underneath
+   (single page style)
+
+   part 2:  create the data migration for client that pushes data from local database to report database
+   
+   *  
